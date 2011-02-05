@@ -6,3 +6,4 @@ gem "rspec", ">= 2.0.0", :group => :test
 gem "rspec-rails", ">= 2.0.0", :group => :test
 gem "database_cleaner", :group => :test
 gem "mocha", :group => :test
+gem "factory_girl_rails", :group => :test

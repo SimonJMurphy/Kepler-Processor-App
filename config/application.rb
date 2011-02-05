@@ -9,6 +9,7 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 module KeplerProcessorApp
   class Application < Rails::Application
     config.generators do |generator|
+      generator.fixture_replacement :factory_girl, :dir => 'spec/factories'
       generator.test_framework :rspec, :views => false
       generator.orm :active_record
     end
