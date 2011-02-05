@@ -9,6 +9,7 @@ Bundler.require(:default, Rails.env) if defined?(Bundler)
 module KeplerProcessorApp
   class Application < Rails::Application
     config.generators do |generator|
+      generator.orm :active_record
     end
 
     # Settings in config/environments/* take precedence over those specified here.
