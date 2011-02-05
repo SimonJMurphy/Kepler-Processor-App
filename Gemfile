@@ -7,3 +7,5 @@ gem "rspec-rails", ">= 2.0.0", :group => :test
 gem "database_cleaner", :group => :test
 gem "mocha", :group => :test
 gem "factory_girl_rails", :group => :test
+gem "ZenTest", :group => :test
+gem "infinity_test", :group => :test
