@@ -9,3 +9,7 @@ gem "mocha", :group => :test
 gem "factory_girl_rails", :group => :test
 gem "ZenTest", :group => :test
 gem "infinity_test", :group => :test
+gem "cucumber", :group => :test
+gem "cucumber-rails", :group => :test
+gem "launchy", :group => :test
+gem "capybara", :group => :test
