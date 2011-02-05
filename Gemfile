@@ -16,3 +16,4 @@ gem "capybara", :group => :test
 gem "haml"
 gem "haml-rails"
 gem "jquery-rails"
+gem "simple-navigation"
