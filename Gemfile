@@ -13,3 +13,5 @@ gem "cucumber", :group => :test
 gem "cucumber-rails", :group => :test
 gem "launchy", :group => :test
 gem "capybara", :group => :test
+gem "haml"
+gem "haml-rails"
